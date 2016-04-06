@@ -4,6 +4,15 @@ This project is a spiritual successor to a much simpler structured data format t
 It has a JSON-like syntax (hence the name), and fully supports nested-value structures. 
 This project is currently in an 'alpha'-quality state.
 
+BasicObjectNotation looks like this:
+    {
+        example_key: "example_value";
+        list: [1, 2, 3];
+        object: {
+          sub_value: "hello, world";
+        };
+    }
+
 ##Types
 
 BON supports the following types, represented by the type in brackets:
