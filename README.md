@@ -12,9 +12,9 @@ BON supports the following types, represented by the type in brackets:
     
     number (float, int)
     
-    bon_list = (list)
+    bon_list (list)
     
-    bon_node = (BONNode)
+    bon_node (BONNode)
     
     bon_object (BONObject)
     
